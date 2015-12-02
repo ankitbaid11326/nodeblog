@@ -1,0 +1,5 @@
+change 
+mongodo:"*"		version to
+"mongodb": "1.4.4",
+
+than only monk will work

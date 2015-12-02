@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		title NodeBlog
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		.container
+			img.logo(src='/images/node.png')
+			nav
+				ul
+					li
+						a(href='/') Home
+					li
+						a(href='/posts/add') Add Post
+					li
+						a(href='/categories/add') Add Category
+	.container
+			!=messages()
+			block content
+			footer
+				p NodeBlog &copy; 2015
